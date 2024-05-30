@@ -103,6 +103,7 @@ header{
 }
 
 
+
 .swipe-page {
   width: 100%;
   height: 80vh;
@@ -328,7 +329,7 @@ footer {
   position: absolute;
   bottom: 80px;
   z-index: 1;
-  display: none;
+  display: flex;
   left: 0;
   right: 0;
   margin: auto;
@@ -381,4 +382,8 @@ footer {
   margin-top: 60px;
   color: red;
 
+}
+
+.inactive{
+  display: none;
 }
